@@ -15,14 +15,6 @@ body {
 	height: 10000px;
 }
 
-/* start slogan */
-.slogan {
-	background-color: var(--red-color);
-	color: var(--yellow-color);
-	text-align: right;
-}
-/* end slogan */
-
 /* start components */
 .main-btn {
 	background-color: var(--red-color);
@@ -33,7 +25,25 @@ body {
 
 	color: var(--yellow-color);
 }
+
+.main-title::after {
+	content: '';
+	position: absolute;
+	width: 120px;
+	height: 2px;
+	left: 50%;
+	transform: translateX(-50%);
+	background-color: var(--green-color);
+}
 /* end components */
+
+/* start slogan */
+.slogan {
+	background-color: var(--red-color);
+	color: var(--yellow-color);
+	text-align: right;
+}
+/* end slogan */
 
 /* start nav bar */
 .navbar {
@@ -80,3 +90,24 @@ body {
 	min-height: calc(100vh - 94px);
 }
 /* end landing */
+
+/* start features */
+.icons-holder {
+	height: 200px;
+}
+.icons-holder .number {
+	font-size: 12rem;
+	left: 50%;
+	transform: translateX(-50%);
+	color: var(--green-color-100);
+}
+.icons-holder .icon {
+	left: 50%;
+	transform: translateX(-50%);
+	color: var(--green-color);
+}
+.feat .header {
+	color: var(--yellow-color);
+}
+
+/* end features */
