@@ -1,0 +1,82 @@
+:root {
+	--primary-color-100: #4772b4;
+	--primary-color-200: #3c6097;
+	--primary-color-300: #304d79;
+	--primary-color-400: #253b5c;
+	--primary-color-500: #19283f; /*primary color*/
+	--green-color-100: #eff7fa;
+	--green-color: #33d1cc;
+	--red-color: #ff3150;
+	--yellow-color: #ffc40c;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	height: 10000px;
+}
+
+/* start slogan */
+.slogan {
+	background-color: var(--red-color);
+	color: var(--yellow-color);
+	text-align: right;
+}
+/* end slogan */
+
+/* start components */
+.main-btn {
+	background-color: var(--red-color);
+	color: var(--yellow-color);
+}
+.main-btn:hover {
+	background-color: var(--red-color);
+
+	color: var(--yellow-color);
+}
+/* end components */
+
+/* start nav bar */
+.navbar {
+	background-color: var(--primary-color-500);
+}
+
+.navbar .navbar-nav .nav-link {
+	color: white;
+}
+
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link.active {
+	color: var(--green-color);
+}
+
+.navbar .search {
+	border-left: 1px solid var(--green-color);
+}
+
+.navbar .search svg {
+	color: var(--green-color);
+}
+
+.navbar .navbar-toggler {
+	color: white;
+	font-size: 25px;
+	border-color: white;
+}
+
+.navbar .navbar-toggler {
+	color: white;
+	font-size: 25px;
+	border-color: white;
+}
+.navbar .navbar-toggler:focus {
+	box-shadow: none;
+}
+/* end of nav bar */
+
+/* start landing */
+.landing {
+	background-color: var(--primary-color-500);
+	min-height: calc(100vh - 94px);
+}
+/* end landing */
