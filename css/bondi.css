@@ -111,3 +111,44 @@ body {
 }
 
 /* end features */
+/* start our works */
+.our-works {
+	background-color: var(--green-color-100);
+}
+.our-works ul li.active {
+	background-color: var(--red-color);
+	color: var(--yellow-color);
+}
+.our-works ul li:not(.active):hover {
+	color: var(--red-color);
+}
+.our-works .img-holder {
+	padding: 5px;
+	overflow: hidden;
+	position: relative;
+}
+.our-works .img-fluid {
+	width: 100%;
+	height: 100%;
+}
+.our-works .img-holder::after {
+	content: attr(data-work);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-size: 2rem;
+	font-weight: bold;
+	position: absolute;
+	width: calc(100% - 10px);
+	height: calc(100% - 10px);
+	left: 5px;
+	top: 5px;
+	background-color: rgb(51, 209, 204, 0.8);
+	transform: translateX(-105%);
+	transition: 0.3s;
+}
+.our-works .img-holder:hover::after {
+	transform: translateX(0);
+}
+/* end our works */
