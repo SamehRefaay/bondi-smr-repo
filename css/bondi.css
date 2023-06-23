@@ -169,3 +169,8 @@ body {
 	color: white;
 }
 /* end team */
+/* start project */
+.project {
+	background-color: var(--primary-color-500);
+}
+/* end project */
