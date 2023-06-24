@@ -174,3 +174,27 @@ body {
 	background-color: var(--primary-color-500);
 }
 /* end project */
+/* start subscribe */
+.subscribe {
+	color: var(--primary-color-500);
+	background-color: var(--yellow-color);
+}
+.subscribe input[type='text'] {
+	border: none;
+	border-bottom: 1px solid white;
+}
+.subscribe input[type='text']:focus {
+	outline: none;
+}
+.subscribe input[type='text']::placeholder {
+	color: white;
+}
+.subscribe input[type='submit'] {
+	color: var(--yellow-color);
+	background-color: var(--primary-color-500);
+	border: none;
+}
+.subscribe form {
+	margin-bottom: 10px;
+}
+/* end subscribe */
