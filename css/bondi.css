@@ -12,7 +12,6 @@
 
 body {
 	font-family: 'Roboto', sans-serif;
-	height: 10000px;
 }
 
 /* start components */
@@ -198,3 +197,30 @@ body {
 	margin-bottom: 10px;
 }
 /* end subscribe */
+/* start footer */
+footer {
+	background-color: var(--primary-color-500);
+}
+footer .copyright span {
+	color: var(--green-color);
+}
+footer .copyright span:not(:first-child) {
+	color: var(--yellow-color);
+}
+footer .contact ul svg {
+	width: 20px;
+	height: 20px;
+}
+footer .facebook {
+	background-color: #1877f2;
+}
+footer .twitter {
+	background-color: #1da1f2;
+}
+footer .linkedin {
+	background-color: #0077b5;
+}
+footer .youtube {
+	background-color: #ff0000;
+}
+/* end footer */
